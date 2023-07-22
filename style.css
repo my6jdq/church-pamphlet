@@ -104,7 +104,7 @@
   
 
  /* Media query for smaller screens (e.g., mobile devices) */
-@media (max-width: 767px) {
+@media (max-width: 375px) {
     /* Adjust styles for smaller screens here */
     header {
       padding: 10px; /* Reduce header padding for smaller screens */
