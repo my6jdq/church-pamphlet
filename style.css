@@ -29,6 +29,7 @@
     position: absolute;
     top: 0.5em;
     right: 2em;
+    padding-left: 1em;
   }
 
   /* Reset default list styles */
@@ -66,7 +67,8 @@
   }
   
   main {
-    padding: 0.5em;
+    padding-top: 0.5em;
+    padding-left: 1em;
     font-size: 1em;
   }
   
