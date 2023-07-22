@@ -104,11 +104,12 @@
   
 
  /* Media query for smaller screens (e.g., mobile devices) */
-@media (max-width: 375px) {
+@media (device-width: 375px) {
     /* Adjust styles for smaller screens here */
     header {
       padding: 10px; /* Reduce header padding for smaller screens */
       font-size: 0.4em;
+      text-align: left;
     }
     .header-container {
         flex-direction: column; /* Stack elements vertically on smaller screens */
