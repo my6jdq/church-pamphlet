@@ -14,7 +14,7 @@
   header {
     background-color: #ffffff;
     color: #000000;
-    padding: 15px;
+    padding: 1em;
     text-align: center;
   }
   
@@ -25,15 +25,15 @@
 
   .church-logo {
     position: absolute;
-    top: 2px;
-    right: 15px;
+    top: 0.5em;
+    right: 2em;
   }
 
   /* Reset default list styles */
   /* Style the navigation links */
   nav li {
     display: inline-block; /* Display the list items horizontally */
-    margin-right: 20px; /* Add spacing between the links */
+    margin-right: 2em; /* Add spacing between the links */
   }
   
   nav li:last-child {
@@ -43,7 +43,7 @@
   nav a {
     text-decoration: none; /* Remove underline from the links */
     color: #333; /* Set link color */
-    padding: 10px; /* Add padding around the links */
+    padding: 0.1em; /* Add padding around the links */
     transition: background-color 0.3s ease; /* Add a smooth transition effect */
   }
   
@@ -56,7 +56,7 @@
   .navbar {
     background-color: #a95f5f;
     color: #fff;
-    padding: 10px;
+    padding: 0.1em;
     text-align: left;
   }
   .navbar-container {
@@ -64,16 +64,21 @@
   }
   
   main {
-    padding: 20px;
+    padding: 0.5em;
   }
   
   footer {
-    background-color: #333;
-    color: #fff;
+    background-color: #ffffff;
+    color: #000000;
     text-align: center;
-    padding: 10px;
+    height: 1em;
+    padding: 1em;
     position: fixed;
     bottom: 0;
     width: 100%;
+  }
+
+  footer p {
+    font-size: 0.5em;
   }
   
