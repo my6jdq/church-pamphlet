@@ -88,13 +88,18 @@
   }
   
 
-  @media (max-width: 40em) {
-    /* Adjust styles for smaller screens here */
+  /* Media query for iPhone browser size in em units */
+@media (max-width: 23em) {
+    /* Adjust styles for iPhone-sized screens here */
+    /* For example, you can target specific elements or adjust font sizes */
+    body {
+      font-size: 14px; /* Example: Reduce font size on smaller screens */
+    }
     header {
-      padding: 1em; /* Reduce header padding for smaller screens */
-    }
-  
-    .image-container {
-      padding: 2em; /* Add padding above the image on smaller screens */
-    }
+        padding: 1em; /* Reduce header padding for smaller screens */
+      }
+    
+      .image-container {
+        padding-top: 1em; /* Add padding above the image on smaller screens */
+      }
   }
