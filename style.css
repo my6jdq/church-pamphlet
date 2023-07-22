@@ -87,3 +87,14 @@
     font-size: 0.5em;
   }
   
+
+  @media (max-width: 40em) {
+    /* Adjust styles for smaller screens here */
+    header {
+      padding: 1em; /* Reduce header padding for smaller screens */
+    }
+  
+    .image-container {
+      padding-top: 2em; /* Add padding above the image on smaller screens */
+    }
+  }
