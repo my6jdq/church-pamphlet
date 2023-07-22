@@ -13,15 +13,24 @@
   } */
   
   header {
-    background-color: #ffffff;
+    background-color: #f0f0f0;
     color: #000000;
     padding: 1em;
     text-align: center;
     font-size: 1em;
   }
   
+  /* Flexbox layout for header and logo */
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f0f0f0; /* Optional background color for the top section */
+    padding: 10px; /* Optional padding for the top section */
+  }
+  
   header h1 {
-    background-color: #ffffff ;
+    background-color: #f0f0f0 ;
     margin: 5;
   }
 
@@ -99,6 +108,9 @@
     /* Adjust styles for smaller screens here */
     header {
       padding: 10px; /* Reduce header padding for smaller screens */
+    }
+    .header-container {
+        flex-direction: column; /* Stack elements vertically on smaller screens */
     }
   
     .image-container {
