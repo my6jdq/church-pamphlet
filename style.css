@@ -1,40 +1,66 @@
 /* template */
 
-body {
-    font-family: Arial, sans-serif;
+  body {
+    /* font-family: Arial, sans-serif; */
+    font-family: "Roboto Mono", monospace;
     margin: 0;
     padding: 0;
   }
+  /* body {
+    flex-direction: column;
+    align-items: center;
+  } */
   
   header {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
+    background-color: #ffffff;
+    color: #000000;
+    padding: 15px;
     text-align: center;
   }
   
   header h1 {
-    margin: 0;
+    background-color: #ffffff ;
+    margin: 5;
+  }
+
+  .church-logo {
+    position: absolute;
+    top: 2px;
+    right: 15px;
+  }
+
+  /* Reset default list styles */
+  /* Style the navigation links */
+  nav li {
+    display: inline-block; /* Display the list items horizontally */
+    margin-right: 20px; /* Add spacing between the links */
   }
   
-  nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
+  nav li:last-child {
+    margin-right: 0; /* Remove right margin from the last link */
   }
   
-  nav ul li {
-    display: inline;
-    margin-right: 20px;
+  nav a {
+    text-decoration: none; /* Remove underline from the links */
+    color: #333; /* Set link color */
+    padding: 10px; /* Add padding around the links */
+    transition: background-color 0.3s ease; /* Add a smooth transition effect */
   }
   
-  nav ul li:last-child {
-    margin-right: 0;
+  /* Change link color on hover */
+  nav a:hover {
+    background-color: #f0f0f0;
+    color: #000;
   }
-  
-  nav ul li a {
+
+  .navbar {
+    background-color: #a95f5f;
     color: #fff;
-    text-decoration: none;
+    padding: 10px;
+    text-align: left;
+  }
+  .navbar-container {
+    clear: both; /* Ensure the container starts on a new line below the header */
   }
   
   main {
