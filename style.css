@@ -27,10 +27,15 @@
 
   .church-logo {
     position: absolute;
-    top: 0.5em;
-    right: 2em;
+    top: 0.1em;
+    right: 1em;
     padding-left: 1em;
-    display: block
+  }
+
+  .church-logo img {
+    max-width: 100%;
+    height: auto;
+    display: block; /* Display the image as a block-level element */
   }
 
   /* Reset default list styles */
