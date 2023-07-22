@@ -108,6 +108,7 @@
     /* Adjust styles for smaller screens here */
     header {
       padding: 10px; /* Reduce header padding for smaller screens */
+      font-size: 0.7em;
     }
     .header-container {
         flex-direction: column; /* Stack elements vertically on smaller screens */
