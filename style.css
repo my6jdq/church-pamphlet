@@ -93,21 +93,40 @@
     max-width: 100%; /* The image will not exceed the container width */
     height: auto; /* Maintains the aspect ratio of the image */
   }
+
+  /* Styles for the scrollable section */
+  .scrollable-section {
+    height: 50%; /* Set the height of the section */
+    overflow-y: auto; /* Allow vertical scrolling */
+    background-color: #ffffff; /* Optional background color for the section */
+    padding: 10px; /* Optional padding for the section */
+  }
+  
+  /* Optional styles for the content within the section */
+  .scrollable-section h2 {
+    margin-bottom: 10px;
+  }
+  
+  .scrollable-section p {
+    margin-bottom: 20px;
+  }
   
   footer {
     background-color: #ffffff;
     color: #000000;
     text-align: center;
     height: 1em;
-    padding: 1em;
     position: fixed;
     bottom: 0;
     width: 100%;
+
+    font-size: 0.5em; /* Set the font size to make it super small */
+    padding: 1.2em; /* Optional padding for the footer */
   }
 
-  footer p {
+  /* footer p {
     font-size: 0.5em;
-  }
+  } */
   
 
  /* Media query for smaller screens (e.g., mobile devices) */
