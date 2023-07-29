@@ -87,6 +87,12 @@
     padding-right: 2em;
     font-size: 1em;
   }
+
+  /* Responsive image */
+  img {
+    max-width: 100%; /* The image will not exceed the container width */
+    height: auto; /* Maintains the aspect ratio of the image */
+  }
   
   footer {
     background-color: #ffffff;
