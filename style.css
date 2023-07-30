@@ -181,22 +181,20 @@
   } */
   
 
- /* Media query for smaller screens (e.g., mobile devices) */
-/* @media (device-width: 375px) {
-    
-    header {
-      padding: 10px; 
-      font-size: 0.4em;
-      text-align: left;
-    }
+/* Media query for mobile phone browsers */
+@media screen and (max-width: 768px) {
     .header-container {
-        flex-direction: column; 
+      flex-direction: column; /* Stack elements vertically on smaller screens */
+      text-align: center; /* Center the elements horizontally */
     }
   
-    .image-container {
-      margin-top: 10px; 
+    .header-image {
+      width: 4em; /* Increase the image size on smaller screens */
+      height: 4em; /* Increase the image size on smaller screens */
+      margin-left: 0; /* Remove the margin between header and image on smaller screens */
+      margin-top: 0.5em; /* Add space between header and image on smaller screens */
     }
-  } */
+  }
 
   /* Media query for smaller screens, like mobile phones */
 @media screen and (max-width: 768px) {
