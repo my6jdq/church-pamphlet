@@ -80,17 +80,7 @@
 
   /* modern styling */
   
-  .navbar-list {
-    list-style: none; /* Remove default list styling */
-    margin: 0;
-    padding: 0;
-    display: flex; /* Use flexbox to arrange the links horizontally */
-    justify-content: center; /* Center the links horizontally */
-  }
-  
-  .navbar-list li {
-    margin: 0 1.5em; /* Add space between each link */
-  }
+  /* need to figure out what is wrong */
 
 
   /* navbar styling not tacky */
