@@ -14,7 +14,7 @@
   } */
   
   /* header {
-    background-color: #E0D3AF;
+    background-color: #EDE7DB;
     color: #000000;
     padding: 1em;
     text-align: center;
@@ -26,14 +26,14 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #E0D3AF;
+    background-color: #EDE7DB;
     padding: 10px; 
  */
 
  .header-container {
     display: flex; /* Use flexbox to create a flexible layout */
     align-items: center; /* Vertically align items in the center */
-    background-color: #E0D3AF;
+    background-color: #EDE7DB;
     padding: 1em;
   }
   
@@ -54,7 +54,7 @@
   }
   
   /* header h1 {
-    background-color: #E0D3AF ;
+    background-color: #EDE7DB ;
     margin: 5;
   } */
 
@@ -96,7 +96,7 @@
   }
 
   .navbar {
-    background-color: #E0D3AF;
+    background-color: #EDE7DB;
     padding: 1em;
     /* text-align: left;
     display: flex;
@@ -182,17 +182,18 @@
   
 
 /* Media query for mobile phone browsers */
+/* causes mobile to have header image in the center */
 @media screen and (max-width: 768px) {
     .header-container {
-      flex-direction: column; /* Stack elements vertically on smaller screens */
-      text-align: center; /* Center the elements horizontally */
+      flex-direction: column; 
+      text-align: center; 
     }
   
     .header-image {
-      width: 4em; /* Increase the image size on smaller screens */
-      height: 4em; /* Increase the image size on smaller screens */
-      margin-left: 0; /* Remove the margin between header and image on smaller screens */
-      margin-top: 0.5em; /* Add space between header and image on smaller screens */
+      width: 4em; 
+      height: 4em; 
+      margin-left: 0; 
+      margin-top: 0.5em; 
     }
   }
 
