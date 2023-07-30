@@ -28,17 +28,18 @@
     align-items: center;
     background-color: #E0D3AF; /* Optional background color for the top section */
 
+  /* General styles for the header container */
   .header-container {
     display: flex; /* Use flexbox to create a flexible layout */
     align-items: center; /* Vertically align items in the center */
-    background-color: #E0D3AF;
+    background-color: #f0f0f0;
     padding: 1em;
   }
   
   /* Styles for the header image */
   .header-image {
-    width: 100px; /* Adjust the image width as needed */
-    height: 100px; /* Adjust the image height as needed */
+    width: 6em; /* Adjust the image width in em units */
+    height: 6em; /* Adjust the image height in em units */
     object-fit: cover; /* Maintain aspect ratio and crop if needed */
     border-radius: 50%; /* Create a circular shape for the image */
     margin-right: 1em; /* Add some space between the image and header */
@@ -47,8 +48,8 @@
   /* Styles for the header title */
   .header-title {
     margin: 0; /* Remove default margin to avoid unwanted spacing */
-    font-size: 2em; /* Adjust the font size as needed */
-    color: #000000;
+    font-size: 2em; /* Adjust the font size in em units */
+    color: #333;
   }
   
   /* header h1 {
