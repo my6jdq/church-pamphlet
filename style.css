@@ -149,7 +149,7 @@
   }
 
   .element-with-padding {
-    padding: 10px; /* Add 10 pixels of padding on all sides */
+    padding: 0.5em; 
   }
 
   .custom-list {
