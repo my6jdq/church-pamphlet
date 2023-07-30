@@ -78,10 +78,6 @@
     margin-right: 2em; /* Add spacing between the links */
   }
   
-  nav li:last-child {
-    margin-right: 0; /* Remove right margin from the last link */
-  }
-  
   nav a {
     text-decoration: none; /* Remove underline from the links */
     color: #000000; /* Set link color */
@@ -98,6 +94,7 @@
   .navbar {
     background-color: #EDE7DB;
     padding: 1em;
+    text-align: center;
     /* text-align: left;
     display: flex;
     justify-content: center; */
