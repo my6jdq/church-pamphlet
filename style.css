@@ -39,11 +39,11 @@
   
   /* Styles for the header image */
   .header-image {
-    width: 6em; /* Adjust the image width in em units */
-    height: 6em; /* Adjust the image height in em units */
+    width: 2em; /* Adjust the image width in em units */
+    height: 2em; /* Adjust the image height in em units */
     object-fit: cover; /* Maintain aspect ratio and crop if needed */
     border-radius: 50%; /* Create a circular shape for the image */
-    margin-right: 1em; /* Add some space between the image and header */
+    margin-right: 0.5em; /* Add some space between the image and header */
   }
   
   /* Styles for the header title */
@@ -58,7 +58,7 @@
     margin: 5;
   } */
 
-  .church-logo {
+  /* .church-logo {
     position: absolute;
     top: 0.1em;
     right: 1em;
@@ -68,8 +68,8 @@
   .church-logo img {
     max-width: 100%;
     height: auto;
-    display: block; /* Display the image as a block-level element */
-  }
+    display: block; 
+  } */
 
   /* Reset default list styles */
   /* Style the navigation links */
