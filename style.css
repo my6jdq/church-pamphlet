@@ -79,28 +79,7 @@
   }
 
   /* modern styling */
-  .navbar-list {
-    list-style: none; /* Remove default list styling */
-    margin: 0;
-    padding: 0;
-    display: flex; /* Use flexbox to arrange the links horizontally */
-    justify-content: center; /* Center the links horizontally */
-  }
   
-  .navbar-list li {
-    margin: 0 1.5em; /* Add space between each link */
-  }
-  
-  .navbar-list li a {
-    text-decoration: none; /* Remove underline from links */
-    color: #333; /* Set the text color for links */
-    font-size: 1em; /* Set the font size for links */
-    transition: color 0.2s; /* Add a smooth color transition on hover */
-  }
-  
-  .navbar-list li a:hover {
-    color: #007bff; /* Change the text color on hover */
-  }
 
   /* navbar styling not tacky */
 
