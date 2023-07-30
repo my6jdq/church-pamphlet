@@ -13,27 +13,48 @@
     align-items: center;
   } */
   
-  header {
+  /* header {
     background-color: #E0D3AF;
     color: #000000;
     padding: 1em;
     text-align: center;
     font-size: 1em;
-  }
+  } */
   
   /* Flexbox layout for header and logo */
-  .header-container {
+  /* .header-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #E0D3AF; /* Optional background color for the top section */
-    padding: 10px; /* Optional padding for the top section */
+
+  .header-container {
+    display: flex; /* Use flexbox to create a flexible layout */
+    align-items: center; /* Vertically align items in the center */
+    background-color: #E0D3AF;
+    padding: 1em;
   }
   
-  header h1 {
+  /* Styles for the header image */
+  .header-image {
+    width: 100px; /* Adjust the image width as needed */
+    height: 100px; /* Adjust the image height as needed */
+    object-fit: cover; /* Maintain aspect ratio and crop if needed */
+    border-radius: 50%; /* Create a circular shape for the image */
+    margin-right: 1em; /* Add some space between the image and header */
+  }
+  
+  /* Styles for the header title */
+  .header-title {
+    margin: 0; /* Remove default margin to avoid unwanted spacing */
+    font-size: 2em; /* Adjust the font size as needed */
+    color: #000000;
+  }
+  
+  /* header h1 {
     background-color: #E0D3AF ;
     margin: 5;
-  }
+  } */
 
   .church-logo {
     position: absolute;
