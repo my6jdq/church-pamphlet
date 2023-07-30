@@ -60,7 +60,7 @@
   
   nav a {
     text-decoration: none; /* Remove underline from the links */
-    color: #333; /* Set link color */
+    color: #1c00bd; /* Set link color */
     padding: 0.1em; /* Add padding around the links */
     transition: background-color 0.3s ease; /* Add a smooth transition effect */
   }
@@ -68,15 +68,42 @@
   /* Change link color on hover */
   nav a:hover {
     background-color: #f0f0f0;
-    color: #000;
+    color: #000000;
   }
 
   .navbar {
-    background-color: #a95f5f;
-    color: #fff;
+    background-color: #a0aede;
     padding: 0.1em;
+    box-shadow: 0 0.1em 0.2em rgba(0, 0, 0, 0.1);
     text-align: left;
   }
+
+  /* modern styling */
+  .navbar-list {
+    list-style: none; /* Remove default list styling */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Use flexbox to arrange the links horizontally */
+    justify-content: center; /* Center the links horizontally */
+  }
+  
+  .navbar-list li {
+    margin: 0 1.5em; /* Add space between each link */
+  }
+  
+  .navbar-list li a {
+    text-decoration: none; /* Remove underline from links */
+    color: #333; /* Set the text color for links */
+    font-size: 1em; /* Set the font size for links */
+    transition: color 0.2s; /* Add a smooth color transition on hover */
+  }
+  
+  .navbar-list li a:hover {
+    color: #007bff; /* Change the text color on hover */
+  }
+
+  /* navbar styling not tacky */
+
   .navbar-container {
     clear: both; /* Ensure the container starts on a new line below the header */
   }
