@@ -115,6 +115,10 @@
   .element-with-padding {
     padding: 10px; /* Add 10 pixels of padding on all sides */
   }
+
+  .custom-list {
+    padding: 1em;
+  }
   
   footer {
     background-color: #ffffff;
