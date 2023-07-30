@@ -111,6 +111,10 @@
   .scrollable-section p {
     margin-bottom: 20px;
   }
+
+  .element-with-padding {
+    padding: 10px; /* Add 10 pixels of padding on all sides */
+  }
   
   footer {
     background-color: #ffffff;
