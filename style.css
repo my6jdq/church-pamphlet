@@ -182,21 +182,21 @@
   
 
  /* Media query for smaller screens (e.g., mobile devices) */
-@media (device-width: 375px) {
-    /* Adjust styles for smaller screens here */
+/* @media (device-width: 375px) {
+    
     header {
-      padding: 10px; /* Reduce header padding for smaller screens */
+      padding: 10px; 
       font-size: 0.4em;
       text-align: left;
     }
     .header-container {
-        flex-direction: column; /* Stack elements vertically on smaller screens */
+        flex-direction: column; 
     }
   
     .image-container {
-      margin-top: 10px; /* Reduce margin for smaller screens */
+      margin-top: 10px; 
     }
-  }
+  } */
 
   /* Media query for smaller screens, like mobile phones */
 @media screen and (max-width: 768px) {
