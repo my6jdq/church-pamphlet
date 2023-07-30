@@ -26,10 +26,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #E0D3AF; /* Optional background color for the top section */
+    background-color: #E0D3AF;
+    padding: 10px; 
+ */
 
-  /* General styles for the header container */
-  .header-container {
+ .header-container {
     display: flex; /* Use flexbox to create a flexible layout */
     align-items: center; /* Vertically align items in the center */
     background-color: #f0f0f0;
@@ -49,7 +50,7 @@
   .header-title {
     margin: 0; /* Remove default margin to avoid unwanted spacing */
     font-size: 2em; /* Adjust the font size in em units */
-    color: #333;
+    color: #000000;
   }
   
   /* header h1 {
@@ -110,7 +111,6 @@
     display: block; /* Make the links occupy full width as blocks */
     padding: 0.5em 1em;
     transition: background-color 0.3s; /* Add smooth transition on hover */
-    text-align: center;
   }
 
   /* navbar styling not tacky */
