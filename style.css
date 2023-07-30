@@ -33,7 +33,7 @@
  .header-container {
     display: flex; /* Use flexbox to create a flexible layout */
     align-items: center; /* Vertically align items in the center */
-    background-color: #f0f0f0;
+    background-color: #E0D3AF;
     padding: 1em;
   }
   
