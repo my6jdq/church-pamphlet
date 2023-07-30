@@ -1,4 +1,5 @@
 /* template */
+/* after talking to caitlyn and getting her design, changes made */
 
   body {
     /* font-family: Arial, sans-serif; */
@@ -13,7 +14,7 @@
   } */
   
   header {
-    background-color: #f0f0f0;
+    background-color: #E0D3AF;
     color: #000000;
     padding: 1em;
     text-align: center;
@@ -25,12 +26,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #f0f0f0; /* Optional background color for the top section */
+    background-color: #E0D3AF; /* Optional background color for the top section */
     padding: 10px; /* Optional padding for the top section */
   }
   
   header h1 {
-    background-color: #f0f0f0 ;
+    background-color: #E0D3AF ;
     margin: 5;
   }
 
@@ -60,7 +61,7 @@
   
   nav a {
     text-decoration: none; /* Remove underline from the links */
-    color: #1c00bd; /* Set link color */
+    color: #000000; /* Set link color */
     padding: 0.1em; /* Add padding around the links */
     transition: background-color 0.3s ease; /* Add a smooth transition effect */
   }
@@ -72,15 +73,22 @@
   }
 
   .navbar {
-    background-color: #c0c7dd;
-    padding: 0.1em;
-    text-align: left;
+    background-color: #E0D3AF;
+    padding: 1em;
+    /* text-align: left;
     display: flex;
-    justify-content: center;
+    justify-content: center; */
   }
 
   /* modern styling */
-  
+  .nav-link {
+    text-decoration: none;
+    color: #000000;
+    font-size: 1.2em;
+    display: block; /* Make the links occupy full width as blocks */
+    padding: 0.5em 1em;
+    transition: background-color 0.3s; /* Add smooth transition on hover */
+  }
 
   /* navbar styling not tacky */
 
@@ -134,7 +142,7 @@
   
   footer {
     background-color: #ffffff;
-    color: #f1f1f1;
+    color: #f2f2ee;
     text-align: center;
     height: 1em;
     bottom: 0;
@@ -167,12 +175,15 @@
     }
   }
 
-  @media screen and (max-width: 768px) {
+  /* Media query for smaller screens, like mobile phones */
+@media screen and (max-width: 768px) {
     .navbar {
-      flex-direction: column;
+      display: flex; /* Use flexbox to stack links vertically */
+      flex-direction: column; /* Stack links vertically */
+      align-items: center; /* Center links horizontally */
     }
   
-    .nav-button {
-      margin: 0.2em;
+    .nav-link {
+      margin: 0.2em; /* Add space between links on smaller screens */
     }
   }
