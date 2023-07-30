@@ -119,6 +119,11 @@
   .custom-list {
     padding: 1em;
   }
+
+  .qr-code {
+    width: 50%;
+    height: auto;
+  }
   
   footer {
     background-color: #ffffff;
