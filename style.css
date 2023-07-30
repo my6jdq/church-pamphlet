@@ -73,15 +73,23 @@
 
   .navbar {
     background-color: #c0c7dd;
-    padding: 0.1em;
-    box-shadow: 0 0.1em 0.2em rgba(0, 0, 0, 0.1);
+    padding: 1em;
     text-align: left;
+    display: flex;
+    justify-content: center;
   }
 
   /* modern styling */
-  
-  /* need to figure out what is wrong */
-
+  .nav-button {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2em;
+    padding: 0.5em 1em;
+    margin: 0.5em;
+    border-radius: 5px;
+    background-color: #0056b3;
+    transition: background-color 0.3s;
+  }
 
   /* navbar styling not tacky */
 
@@ -165,5 +173,15 @@
   
     .image-container {
       margin-top: 10px; /* Reduce margin for smaller screens */
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+    }
+  
+    .nav-button {
+      margin: 0.2em;
     }
   }
