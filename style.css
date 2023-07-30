@@ -110,6 +110,7 @@
     display: block; /* Make the links occupy full width as blocks */
     padding: 0.5em 1em;
     transition: background-color 0.3s; /* Add smooth transition on hover */
+    text-align: center;
   }
 
   /* navbar styling not tacky */
