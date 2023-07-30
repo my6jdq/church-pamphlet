@@ -73,23 +73,14 @@
 
   .navbar {
     background-color: #c0c7dd;
-    padding: 1em;
+    padding: 0.1em;
     text-align: left;
     display: flex;
     justify-content: center;
   }
 
   /* modern styling */
-  .nav-button {
-    text-decoration: none;
-    color: #fff;
-    font-size: 1.2em;
-    padding: 0.5em 1em;
-    margin: 0.5em;
-    border-radius: 5px;
-    background-color: #0056b3;
-    transition: background-color 0.3s;
-  }
+  
 
   /* navbar styling not tacky */
 
