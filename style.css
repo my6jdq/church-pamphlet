@@ -1,0 +1,209 @@
+/* template */
+/* after talking to caitlyn and getting her design, changes made */
+
+  body {
+    /* font-family: Arial, sans-serif; */
+    font-family: "Roboto Mono", monospace;
+    margin: 0;
+    padding: 0;
+    font-size: 1em;
+  }
+  /* body {
+    flex-direction: column;
+    align-items: center;
+  } */
+  
+  /* header {
+    background-color: #EDE7DB;
+    color: #000000;
+    padding: 1em;
+    text-align: center;
+    font-size: 1em;
+  } */
+  
+  /* Flexbox layout for header and logo */
+  /* .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #EDE7DB;
+    padding: 10px; 
+ */
+
+ .header-container {
+    display: flex; /* Use flexbox to create a flexible layout */
+    align-items: center; /* Vertically align items in the center */
+    background-color: #EDE7DB;
+    padding: 1em;
+  }
+  
+  /* Styles for the header image */
+  .header-image {
+    width: 2em; /* Adjust the image width in em units */
+    height: 2em; /* Adjust the image height in em units */
+    object-fit: cover; /* Maintain aspect ratio and crop if needed */
+    border-radius: 50%; /* Create a circular shape for the image */
+    margin-right: 0.5em; /* Add some space between the image and header */
+  }
+  
+  /* Styles for the header title */
+  .header-title {
+    margin: 0; /* Remove default margin to avoid unwanted spacing */
+    font-size: 2em; /* Adjust the font size in em units */
+    color: #000000;
+  }
+  
+  /* header h1 {
+    background-color: #EDE7DB ;
+    margin: 5;
+  } */
+
+  /* .church-logo {
+    position: absolute;
+    top: 0.1em;
+    right: 1em;
+    padding-left: 1em;
+  }
+
+  .church-logo img {
+    max-width: 100%;
+    height: auto;
+    display: block; 
+  } */
+
+  /* Reset default list styles */
+  /* Style the navigation links */
+  nav li {
+    display: inline-block; /* Display the list items horizontally */
+    margin-right: 2em; /* Add spacing between the links */
+  }
+  
+  nav a {
+    text-decoration: none; /* Remove underline from the links */
+    color: #000000; /* Set link color */
+    padding: 0.1em; /* Add padding around the links */
+    transition: background-color 0.3s ease; /* Add a smooth transition effect */
+  }
+  
+  /* Change link color on hover */
+  nav a:hover {
+    background-color: #f0f0f0;
+    color: #000000;
+  }
+
+  .navbar {
+    background-color: #EDE7DB;
+    padding: 1em;
+    text-align: center;
+    /* text-align: left;
+    display: flex;
+    justify-content: center; */
+  }
+
+  /* modern styling */
+  .nav-link {
+    text-decoration: none;
+    color: #000000;
+    font-size: 1.2em;
+    display: block; /* Make the links occupy full width as blocks */
+    padding: 0.5em 1em;
+    transition: background-color 0.3s; /* Add smooth transition on hover */
+    text-align: center;
+  }
+
+  /* navbar styling not tacky */
+
+  .navbar-container {
+    clear: both; /* Ensure the container starts on a new line below the header */
+  }
+  
+  main {
+    padding-top: 0.5em;
+    padding-left: 1em;
+    padding-right: 2em;
+    font-size: 1em;
+  }
+
+  /* Responsive image */
+  img {
+    max-width: 100%; /* The image will not exceed the container width */
+    height: auto; /* Maintains the aspect ratio of the image */
+  }
+
+  /* Styles for the scrollable section */
+  .scrollable-section {
+    height: 50%; /* Set the height of the section */
+    overflow-y: auto; /* Allow vertical scrolling */
+    background-color: #ffffff; /* Optional background color for the section */
+    padding: 10px; /* Optional padding for the section */
+    flex: 1;
+  }
+  
+  /* Optional styles for the content within the section */
+  .scrollable-section h2 {
+    margin-bottom: 10px;
+  }
+  
+  .scrollable-section p {
+    margin-bottom: 20px;
+  }
+
+  .element-with-padding {
+    padding: 0.5em; 
+  }
+
+  .custom-list {
+    padding: 1em;
+  }
+
+  .qr-code {
+    width: 100%;
+    height: auto;
+  }
+  
+  footer {
+    background-color: #ffffff;
+    color: #f2f2ee;
+    text-align: center;
+    height: 1em;
+    bottom: 0;
+    width: 100%;
+
+    font-size: 0.5em; /* Set the font size to make it super small */
+    padding: 1.2em; /* Optional padding for the footer */
+
+  }
+
+  /* footer p {
+    font-size: 0.5em;
+  } */
+  
+
+/* Media query for mobile phone browsers */
+/* causes mobile to have header image in the center */
+@media screen and (max-width: 768px) {
+    .header-container {
+      flex-direction: column; 
+      text-align: center; 
+    }
+  
+    .header-image {
+      width: 4em; 
+      height: 4em; 
+      margin-left: 0; 
+      margin-top: 0.5em; 
+    }
+  }
+
+  /* Media query for smaller screens, like mobile phones */
+@media screen and (max-width: 768px) {
+    .navbar {
+      display: flex; /* Use flexbox to stack links vertically */
+      flex-direction: column; /* Stack links vertically */
+      align-items: center; /* Center links horizontally */
+    }
+  
+    .nav-link {
+      margin: 0.2em; /* Add space between links on smaller screens */
+    }
+  }
