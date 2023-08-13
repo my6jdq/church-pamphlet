@@ -160,6 +160,10 @@
     width: 100%;
     height: auto;
   }
+
+  .scripture {
+    line-height: 1.5;
+  }
   
   footer {
     background-color: #ffffff;
