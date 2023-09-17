@@ -159,7 +159,26 @@
   .qr-code {
     width: 100%;
     height: auto;
+    max-height: none;
   }
+  .announcement-image {
+    width: 100%;
+    height: auto;
+    max-height: none;
+  }
+  @media (min-width: 768px) {
+    .qr-code {
+      max-width: 20%; /* Set a maximum width, e.g., 80% of the container */
+      width: 50%; /* Allow the width to adjust while maintaining aspect ratio */
+      height: 50%; /* Allow the height to adjust while maintaining aspect ratio */
+    }
+    .announcement-image {
+      max-width: 50%; /* Set a maximum width, e.g., 80% of the container */
+      width: 50%; /* Allow the width to adjust while maintaining aspect ratio */
+      height: 50%; /* Allow the height to adjust while maintaining aspect ratio */
+    }
+  }
+
 
   .scripture {
     line-height: 2.0;
