@@ -1,9 +1,20 @@
 /* template */
 /* after talking to caitlyn and getting her design, changes made */
 
+
+  @font-face {
+    font-family: 'Gaegu';
+    src: url('Gaegu/Gaegu-Bold.ttf') format('tff'),
+        url('Gaegu/Gaegu-Light.ttf') format('tff'),
+        url('Gaegu/Gaegu-Regular.ttf') format('tff');
+    /* Add additional font formats if available */
+    font-weight: normal;
+    font-style: normal;
+  }
+
   body {
     /* font-family: Arial, sans-serif; */
-    font-family: "Roboto Mono", monospace;
+    font-family: 'Gaegu'; /* Use the defined font-family */
     margin: 0;
     padding: 0;
     font-size: 1em;
