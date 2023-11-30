@@ -4,9 +4,9 @@
 
   @font-face {
     font-family: 'Gaegu';
-    src: url('Gaegu/Gaegu-Bold.ttf') format('tff'),
-        url('Gaegu/Gaegu-Light.ttf') format('tff'),
-        url('Gaegu/Gaegu-Regular.ttf') format('tff');
+    src: url('Gaegu/Gaegu-Bold.ttf') format('truetype'),
+        url('Gaegu/Gaegu-Light.ttf') format('truetype'),
+        url('Gaegu/Gaegu-Regular.ttf') format('truetype');
     /* Add additional font formats if available */
     font-weight: normal;
     font-style: normal;
